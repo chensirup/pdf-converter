@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FileText, Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+// TODO: 恢复登录注册按钮时取消注释
+// import { Button } from '@/components/ui/button';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
