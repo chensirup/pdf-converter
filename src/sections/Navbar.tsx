@@ -56,16 +56,19 @@ export default function Navbar() {
             >
               功能特性
             </button>
+            {/* TODO: 定价方案 - 后期需要时取消注释
             <button
               onClick={() => scrollToSection('cta')}
               className="text-gray-600 hover:text-[#6b8cff] transition-colors font-medium"
             >
               定价方案
             </button>
+            */}
           </div>
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-3">
+            {/* TODO: 登录和注册按钮 - 后期需要时取消注释
             <Button
               variant="ghost"
               className="text-gray-600 hover:text-[#6b8cff] hover:bg-blue-50"
@@ -75,6 +78,7 @@ export default function Navbar() {
             <Button className="bg-gradient-to-r from-[#6b8cff] to-[#a3b7ff] text-white hover:opacity-90 shadow-lg shadow-blue-200">
               免费注册
             </Button>
+            */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -106,12 +110,15 @@ export default function Navbar() {
               >
                 功能特性
               </button>
+              {/* TODO: 定价方案 - 后期需要时取消注释
               <button
                 onClick={() => scrollToSection('cta')}
                 className="px-4 py-3 text-left text-gray-600 hover:text-[#6b8cff] hover:bg-blue-50 rounded-lg transition-colors"
               >
                 定价方案
               </button>
+              */}
+              {/* TODO: 登录和注册按钮 - 后期需要时取消注释
               <div className="flex gap-2 mt-2 pt-2 border-t border-gray-100">
                 <Button variant="outline" className="flex-1">
                   登录
@@ -120,6 +127,7 @@ export default function Navbar() {
                   注册
                 </Button>
               </div>
+              */}
             </div>
           </div>
         )}

@@ -58,15 +58,15 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">support@pdfconverter.com</span>
+                <span className="text-sm">aiqijun01@27sem.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">400-123-4567</span>
+                <span className="text-sm">86+0592-5219196</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin className="w-4 h-4" />
-                <span className="text-sm">北京市朝阳区科技园</span>
+                <span className="text-sm">福建省厦门市观音山</span>
               </div>
             </div>
           </div>
