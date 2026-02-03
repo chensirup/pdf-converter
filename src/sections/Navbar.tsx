@@ -45,18 +45,22 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
+            {/* TODO: 转换工具 - 后期需要时取消注释
             <button
               onClick={() => scrollToSection('tools')}
               className="text-gray-600 hover:text-[#6b8cff] transition-colors font-medium"
             >
               转换工具
             </button>
+            */}
+            {/* TODO: 功能特性 - 后期需要时取消注释
             <button
               onClick={() => scrollToSection('features')}
               className="text-gray-600 hover:text-[#6b8cff] transition-colors font-medium"
             >
               功能特性
             </button>
+            */}
             {/* TODO: 定价方案 - 后期需要时取消注释
             <button
               onClick={() => scrollToSection('cta')}
@@ -99,18 +103,22 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-100 animate-in slide-in-from-top-2">
             <div className="flex flex-col gap-2">
+              {/* TODO: 转换工具 - 后期需要时取消注释
               <button
                 onClick={() => scrollToSection('tools')}
                 className="px-4 py-3 text-left text-gray-600 hover:text-[#6b8cff] hover:bg-blue-50 rounded-lg transition-colors"
               >
                 转换工具
               </button>
+              */}
+              {/* TODO: 功能特性 - 后期需要时取消注释
               <button
                 onClick={() => scrollToSection('features')}
                 className="px-4 py-3 text-left text-gray-600 hover:text-[#6b8cff] hover:bg-blue-50 rounded-lg transition-colors"
               >
                 功能特性
               </button>
+              */}
               {/* TODO: 定价方案 - 后期需要时取消注释
               <button
                 onClick={() => scrollToSection('cta')}

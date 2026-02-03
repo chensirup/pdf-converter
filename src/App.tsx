@@ -1,22 +1,30 @@
 import './App.css';
 import Navbar from './sections/Navbar';
-import Hero from './sections/Hero';
+// TODO: 后期需要时取消注释
+// import Hero from './sections/Hero';
 import ConversionTools from './sections/ConversionTools';
-import Features from './sections/Features';
-import CTA from './sections/CTA';
-import Footer from './sections/Footer';
+// TODO: 后期需要时取消注释
+// import Features from './sections/Features';
+// import CTA from './sections/CTA';
+// import Footer from './sections/Footer';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <main>
+        {/* TODO: Hero - 后期需要时取消注释
         <Hero />
+        */}
         <ConversionTools />
+        {/* TODO: 后期需要时取消注释
         <Features />
         <CTA />
+        */}
       </main>
+      {/* TODO: Footer - 后期需要时取消注释
       <Footer />
+      */}
     </div>
   );
 }
