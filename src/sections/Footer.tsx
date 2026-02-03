@@ -50,7 +50,7 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#6b8cff] to-[#a3b7ff] flex items-center justify-center">
                 <FileText className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">PDF转换器</span>
+              <span className="text-xl font-bold">PDF小霸王</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-xs">
               专业的在线PDF转换工具，让文档处理变得简单高效。
@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            © 2024 PDF转换器. 保留所有权利.
+            © 2024 PDF小霸王. 保留所有权利.
           </p>
           <div className="flex items-center gap-4">
             <a

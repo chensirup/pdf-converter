@@ -39,7 +39,7 @@ export default function Navbar() {
               <FileText className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-              PDF转换器
+              PDF小霸王
             </span>
           </div>
 
